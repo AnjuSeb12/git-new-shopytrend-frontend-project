@@ -1,0 +1,46 @@
+
+
+.navbar .nav-link {
+    color: #fff;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #698016;
+  }
+  
+  .navbar .btn-outline-light {
+    margin-left: 1rem;
+  }
+  
+  .navbar .fi-shopping-cart {
+    font-size: 1.5rem; 
+  }
+  .cart-icon {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 12px;
+  }
+  .navbar-brand{
+    color:white !important;
+  }
+  .navbar-brand:hover{
+    color: #698016 !important;
+  }
+ .navbar-toggler-icon{
+  background-color: white !important;
+
+ }
+  
+  
+  
+  

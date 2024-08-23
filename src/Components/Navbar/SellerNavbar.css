@@ -1,0 +1,59 @@
+
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-toggler {
+  color: white;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-dark .nav-link {
+  color: white;
+  margin-right: 15px; 
+}
+
+.navbar-dark .btn-outline-light {
+  margin-right: 15px;
+}
+
+
+.navbar-dark .nav .theme-toggle-container {
+  display: flex;
+  align-items: center;
+  margin-left: 15px; 
+}
+
+
+@media (max-width: 991px) {
+  .navbar-dark .navbar-toggler {
+    border-color: white;
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    background-color: black;
+  }
+
+  .navbar-dark .nav-link {
+    color: white;
+    margin-right: 10px;
+  }
+
+  .navbar-dark .btn-outline-light {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-dark .nav-link,
+  .navbar-dark .btn-outline-light {
+    color: white;
+    margin-right: 5px;
+    text-align: center;
+  }
+
+  .navbar-dark .nav .theme-toggle-container {
+    justify-content: center;
+    margin-left: 0;
+  }
+}

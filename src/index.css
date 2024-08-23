@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root[data-theme='light'] {
+    --header-bg-color: #f8f9fa;
+    --header-text-color: #000;
+  }
+  
+  :root[data-theme='dark'] {
+    --header-bg-color: #0c0c0c;
+    --header-text-color: #f6f3f3;
+  }
+  
+  body {
+    transition: background-color 0.3s, color 0.3s;
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+  }
+  
